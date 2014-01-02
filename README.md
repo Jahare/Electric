@@ -1,24 +1,22 @@
-# Electric [ELE, Ð]
+# Electric [ELE, e]
+http://Electric.com
+
+## What is Electric?
+Electric is like Bitcoin, but based on Litecoin.
 http://Electric.com/
 
-![Electric](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
-
-## What is Electric? - Such coin
-Electric is like Bitcoin, but based on Litecoin, and also much more wow.
-http://Electric.com/
-
-## License - Much license
+## License
 Electric is released under the terms of the MIT license. See [COPYING](COPYING)
 for more information or see http://opensource.org/licenses/MIT.
 
-## Development and contributions - omg developers
+## Development and contributions
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-## Very Much Frequently Asked Questions
+## Frequently Asked Questions
 
-### How much doge can exist?
-Total of 100,000,000,000 much coins
+### How much ELE can exist?
+Total of 10,000,000,000 coins
 
 ### How get doge?
 Scrypt Proof of Work
@@ -27,21 +25,21 @@ Scrypt Proof of Work
 
 Special reward system: Random block rewards
 
-1-100,000: 0-1,000,000 Electric Reward
+1-100,000: 0-100,000 Electric Reward
 
-100,001 — 200,000: 0-500,000 Electric Reward
+100,001 — 200,000: 0-50,000 Electric Reward
 
-200,001 — 300,000: 0-250,000 Electric Reward
+200,001 — 300,000: 0-25,000 Electric Reward
 
-300,001 — 400,000: 0-125,000 Electric Reward
+300,001 — 400,000: 0-12,500 Electric Reward
 
-400,001 — 500,000: 0-62,500 Electric Reward
+400,001 — 500,000: 0-6,250 Electric Reward
 
-500,001 - 600,000: 0-31,250 Electric Reward
+500,001 - 600,000: 0-3,125 Electric Reward
 
-600,000+ — 10,000 Reward (flat)
+600,000+ — 1,000 Reward (flat)
 
-### Wow plz make Electricd
+### make Electricd
 
     sudo apt-get install build-essential \
                          libssl-dev \
@@ -53,8 +51,7 @@ Special reward system: Random block rewards
     cd src/
     make -f makefile.unix USE_UPNP=1 USE_IPV6=1 USE_QRCODE=1
 
-### Such ports
-RPC 22555
-P2P 22556
+### ports
+RPC 9345
+P2P 9346
 
-![](http://dogesay.com/wow//////such/coin)
