@@ -105,10 +105,10 @@ public:
             lower->label = label;
             parent->emitDataChanged(lowerIndex);
             break;
-        case CT_DELETED:
+        case CT_DVOLTTED:
             if(!inModel)
             {
-                OutputDebugStringF("Warning: AddressTablePriv::updateEntry: Got CT_DELETED, but entry is not in model\n");
+                OutputDebugStringF("Warning: AddressTablePriv::updateEntry: Got CT_DVOLTTED, but entry is not in model\n");
                 break;
             }
             parent->beginRemoveRows(QModelIndex(), lowerIndex, upperIndex-1);

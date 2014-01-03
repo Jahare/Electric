@@ -20,7 +20,7 @@ enum ChangeType
 {
     CT_NEW,
     CT_UPDATED,
-    CT_DELETED
+    CT_DVOLTTED
 };
 
 /** Signals for UI communication. */

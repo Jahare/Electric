@@ -105,7 +105,7 @@ Section -post SEC0001
 SectionEnd
 
 # Macro for selecting uninstaller sections
-!macro SELECT_UNSECTION SECTION_NAME UNSECTION_ID
+!macro SVOLTCT_UNSECTION SECTION_NAME UNSECTION_ID
     Push $R0
     ReadRegStr $R0 HKCU "${REGKEY}\Components" "${SECTION_NAME}"
     StrCmp $R0 1 0 next${UNSECTION_ID}
@@ -158,5 +158,5 @@ FunctionEnd
 Function un.onInit
     ReadRegStr $INSTDIR HKCU "${REGKEY}" Path
     !insertmacro MUI_STARTMENU_GETFOLDER Application $StartMenuGroup
-    !insertmacro SELECT_UNSECTION Main ${UNSEC0000}
+    !insertmacro SVOLTCT_UNSECTION Main ${UNSEC0000}
 FunctionEnd

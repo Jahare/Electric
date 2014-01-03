@@ -1,4 +1,4 @@
-# Electric [ELE, e]
+# Electric [VOLT, e]
 http://Electric.com
 
 ## What is Electric?
@@ -15,7 +15,7 @@ their feature or bug fix is ready.
 
 ## Frequently Asked Questions
 
-### How much ELE can exist?
+### How much VOLT can exist?
 Total of 10,000,000,000 coins
 
 ### How get doge?

@@ -111,7 +111,7 @@ public:
                 if(showTransaction && !inModel)
                     status = CT_NEW; /* Not in model, but want to show, treat as new */
                 if(!showTransaction && inModel)
-                    status = CT_DELETED; /* In model, but want to hide, treat as deleted */
+                    status = CT_DVOLTTED; /* In model, but want to hide, treat as deleted */
             }
 
             OutputDebugStringF("   inWallet=%i inModel=%i Index=%i-%i showTransaction=%i derivedStatus=%i\n",
@@ -148,10 +148,10 @@ public:
                     }
                 }
                 break;
-            case CT_DELETED:
+            case CT_DVOLTTED:
                 if(!inModel)
                 {
-                    OutputDebugStringF("Warning: updateWallet: Got CT_DELETED, but transaction is not in model\n");
+                    OutputDebugStringF("Warning: updateWallet: Got CT_DVOLTTED, but transaction is not in model\n");
                     break;
                 }
                 // Removed -- remove entire transaction from table

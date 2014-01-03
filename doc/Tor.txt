@@ -1,4 +1,4 @@
-TOR SUPPORT IN ELECOIN
+TOR SUPPORT IN VOLTCOIN
 ======================
 
 It is possible to run Electric as a Tor hidden service, and connect to such services.
