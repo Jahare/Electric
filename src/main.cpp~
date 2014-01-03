@@ -852,7 +852,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
         int rand3 = 0;
         int rand4 = 0;
         int rand5 = 0;
-        if (nHeight < 1) {
+        if (nHeight < 2) {
 		nSubsidy = 200000000 * COIN;
 	}
         else if(nHeight < 100000)    
@@ -2463,7 +2463,7 @@ bool static AlreadyHave(CTxDB& txdb, const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ascii, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0xc0, 0xc0, 0xc0, 0xc0 }; 
+unsigned char pchMessageStart[4] = { 0x17, 0x07, 0xa4, 0xe6 }; 
 
 
 bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)

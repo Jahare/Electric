@@ -381,6 +381,6 @@ void MiningPage::debugToggled(bool checked)
 
 void MiningPage::resetMiningButton()
 {
-    ui->startButton->setText(minerActive ? "Abort Fueling" : "Start Fueling");
+    ui->startButton->setText(minerActive ? "Abort Charging" : "Start Charging");
     enableMiningControls(!minerActive);
 }

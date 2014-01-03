@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Fuel</string>
+   <string>Charge</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <property name="sizeConstraint">
@@ -83,7 +83,7 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>Start Fueling</string>
+      <string>Start Charging</string>
      </property>
     </widget>
    </item>

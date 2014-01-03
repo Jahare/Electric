@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'miningpage.ui'
 **
-** Created: Thu Jan 2 21:04:12 2014
+** Created: Fri Jan 3 00:58:47 2014
 **      by: Qt User Interface Compiler version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -233,13 +233,13 @@ public:
 
     void retranslateUi(QWidget *MiningPage)
     {
-        MiningPage->setWindowTitle(QApplication::translate("MiningPage", "Fuel", 0, QApplication::UnicodeUTF8));
+        MiningPage->setWindowTitle(QApplication::translate("MiningPage", "Charge", 0, QApplication::UnicodeUTF8));
         usernameLabel->setText(QApplication::translate("MiningPage", "Username", 0, QApplication::UnicodeUTF8));
         serverLabel->setText(QApplication::translate("MiningPage", "Server", 0, QApplication::UnicodeUTF8));
         usernameLine->setText(QString());
         passwordLabel->setText(QApplication::translate("MiningPage", "Password", 0, QApplication::UnicodeUTF8));
         portLabel->setText(QApplication::translate("MiningPage", "Port", 0, QApplication::UnicodeUTF8));
-        startButton->setText(QApplication::translate("MiningPage", "Start Fueling", 0, QApplication::UnicodeUTF8));
+        startButton->setText(QApplication::translate("MiningPage", "Start Charging", 0, QApplication::UnicodeUTF8));
         shareCount->setText(QString());
         scantimeLabel->setText(QApplication::translate("MiningPage", "Scantime", 0, QApplication::UnicodeUTF8));
         threadsLabel->setText(QApplication::translate("MiningPage", "Threads", 0, QApplication::UnicodeUTF8));

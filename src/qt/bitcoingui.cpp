@@ -208,8 +208,8 @@ void BitcoinGUI::createActions()
     overviewAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_1));
     tabGroup->addAction(overviewAction);
 
-    miningAction = new QAction(QIcon(":/icons/mining"), tr("&Fuel"), this);
-    miningAction->setToolTip(tr("Fueling Parameters"));
+    miningAction = new QAction(QIcon(":/icons/mining"), tr("&Charge"), this);
+    miningAction->setToolTip(tr("Charging Parameters"));
     miningAction->setCheckable(true);
     tabGroup->addAction(miningAction);
 
@@ -631,7 +631,7 @@ void BitcoinGUI::setMining(bool mining, int hashrate)
     if (mining)
     {
         labelMiningIcon->setPixmap(QIcon(":/icons/mining_active").pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-        labelMiningIcon->setToolTip(tr("Fueling rocket at %1 hashes per second").arg(hashrate));
+        labelMiningIcon->setToolTip(tr("Charging rocket at %1 hashes per second").arg(hashrate));
     }
     else
     {
