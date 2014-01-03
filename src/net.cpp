@@ -1151,7 +1151,8 @@ void MapPort()
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
        // default hypernode dns seed , change later when network grows
-       {"seed.dogeftw.com", "seed.dogeftw.com"},
+       {"HackShard 1", "ele.hackshard.com"},
+       {"HackShard 2", "WebServer.US1.hackshard.com"},
     // {"Electricpool.org", "dnsseed.Electricpool.org"},
     // {"bytesized-vps.com", "dnsseed.bytesized-vps.com"},
     // {"xurious.com", "dnsseed.ltc.xurious.com"},
