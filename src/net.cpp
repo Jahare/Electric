@@ -18,10 +18,10 @@
 #endif
 
 #ifdef USE_UPNP
-#include <miniupnpc/miniwget.h>
-#include <miniupnpc/miniupnpc.h>
-#include <miniupnpc/upnpcommands.h>
-#include <miniupnpc/upnperrors.h>
+#include <miniwget.h>
+#include <miniupnpc.h>
+#include <upnpcommands.h>
+#include <upnperrors.h>
 #endif
 
 using namespace std;
@@ -1151,11 +1151,12 @@ void MapPort()
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
        // default hypernode dns seed , change later when network grows
-       {"HackShard 1", "ele.hackshard.com"},
-       {"HackShard 2", "WebServer.US1.hackshard.com"},
-    // {"Electricpool.org", "dnsseed.Electricpool.org"},
-    // {"bytesized-vps.com", "dnsseed.bytesized-vps.com"},
-    // {"xurious.com", "dnsseed.ltc.xurious.com"},
+       {"HackShard 1", "pool.us.hackshard.com"},
+       {"HackShard 2", "pool.eu.hackshard.com"},
+       {"Other", "216.244.74.180"},
+       {"BitEmber", "volt.bitember.com"},
+       {"Easy-Mining", "volt.easy-mining.net"},
+       {"NotNull", "elec.notnull.org"}
 };
 
 void ThreadDNSAddressSeed(void* parg)
